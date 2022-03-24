@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #646262;
+}
+
+header {
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a1e1e;
+}
+
+header h1 {
+    font-size: 2.3em;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top, #a5d1e9, #ffffff);
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 2px 3px rgba(94, 166, 194, 0.25);
+    padding-left: 50px;
+}
+
+main .titulo {
+    font-size: 1.6em;
+    margin: 20px;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.technogirls-img {
+    max-width: 600px;
+}
+
+main form .lear-img {
+    max-width: 600px;
+}
+
+main form .text1 
+    {
+        font-size: 1.0em;
+        margin: 10px;
+        min-height: 5vh;
+        display: flex;
+        justify-content: center;
+    }
+    main form .text2
+    {
+        font-size: 1.0em;
+        margin: 10px;
+        min-height: 5vh;
+        display: flex;
+        justify-content: center;
+    }
+
+
+.cursos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+main form footer .a {
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    margin: 5px;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    
+}
+
+main form footer .a:hover {
+    color: #0a5b86;
+}
+
+main form footer .b {
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    margin: 5px;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+
+main form footer .b:hover {
+    color: #0a5b86;
+}
+main form button{
+    background-color: #7a1e1e;
+    width: 90%;
+    height: 60px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 0%;
+    font-size: 1.6em;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: 0.10s ease-in-out;
+    margin-left: 350px;
+}
+
+main form button {
+    background-color: #7a1e1e;
+    color:#ffffff
+   
+}
+
+main form button:hover {
+    background-color: #ffffff;
+    color: #7a1e1e;
+}
